@@ -21,7 +21,7 @@ private:
     PATH path;
     //logs
     int iterations = 0;
-    //time TODO
+    //time
     std::unordered_map <int, class NODE>::iterator address_of_goal_node;
 public:
     A_search(double e, double chosenOne);
