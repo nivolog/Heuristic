@@ -5,10 +5,10 @@
 #include "CLOSED.h"
 
 void CLOSED::insertNode(NODE &node) {
-    CLOSED.insert(std::make_pair(node.id, node));
+    CLOSED.insert(std::make_pair(node.getId(), node));
 }
 
-std::unordered_map <int, class NODE>::iterator  CLOSED::findNode(int id) {
+std::unordered_map <int, NODE>::iterator  CLOSED::findNode(int id) {
     return CLOSED.find(id);
 }
 
