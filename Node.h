@@ -9,7 +9,7 @@
 #include <cmath>
 #include <list>
 
-#include "MAP.h"
+#include "Map.h"
 
 class NODE {
 private:

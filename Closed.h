@@ -7,11 +7,11 @@
 
 #include <unordered_map>
 #include <iostream>
-#include "NODE.h"
+#include "Node.h"
 
 class CLOSED {
 private:
-    std::unordered_map <int, NODE> CLOSED;
+    std::unordered_map <int, NODE> closed;
 public:
     void insertNode(NODE &node);
     std::unordered_map <int, NODE>::iterator findNode(int id);

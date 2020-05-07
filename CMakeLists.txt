@@ -3,4 +3,4 @@ project(Heuristic)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Heuristic main.cpp A_search.cpp A_search.h OPEN.cpp OPEN.h NODE.cpp NODE.h MAP.cpp MAP.h CLOSED.cpp CLOSED.h PATH.cpp PATH.h)
+add_executable(Heuristic main.cpp A_search.cpp A_search.h Open.cpp Open.h Node.cpp Node.h Map.cpp Map.h Closed.cpp Closed.h Path.cpp Path.h)

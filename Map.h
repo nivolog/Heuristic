@@ -9,8 +9,8 @@
 #include <vector>
 #include <fstream>
 #include <list>
-#include "NODE.h"
-#include "CLOSED.h"
+#include "Node.h"
+#include "Closed.h"
 
 
 class MAP {//Map

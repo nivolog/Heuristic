@@ -7,7 +7,7 @@
 
 #include "set"
 #include "unordered_set"
-#include "NODE.h"
+#include "Node.h"
 #include <iostream>
 
 struct comparator{

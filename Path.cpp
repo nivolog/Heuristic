@@ -2,7 +2,7 @@
 // Created by what_is_love on 16.04.2020.
 //
 
-#include "PATH.h"
+#include "Path.h"
 
 void PATH::add_node(NODE &node) {
     _PATH.push(node);

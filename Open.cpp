@@ -3,8 +3,8 @@
 //
 
 #include <fcntl.h>
-#include "OPEN.h"
-#include "NODE.h"
+#include "Open.h"
+#include "Node.h"
 
 
 void OPEN::insertNode(NODE &node) {

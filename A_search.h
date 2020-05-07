@@ -5,11 +5,11 @@
 #ifndef HEURISTIC_A_SEARCH_H
 #define HEURISTIC_A_SEARCH_H
 
-#include "NODE.h"
-#include "OPEN.h"
-#include "CLOSED.h"
-#include "MAP.h"
-#include "PATH.h"
+#include "Node.h"
+#include "Open.h"
+#include "Closed.h"
+#include "Map.h"
+#include "Path.h"
 
 class A_search {
 private:

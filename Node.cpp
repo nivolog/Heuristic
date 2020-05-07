@@ -2,7 +2,7 @@
 // Created by what_is_love on 14.04.2020.
 //
 
-#include "NODE.h"
+#include "Node.h"
 
 NODE::NODE() {
     g = 0;

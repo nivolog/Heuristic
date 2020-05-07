@@ -5,7 +5,7 @@
 #ifndef HEURISTIC_PATH_H
 #define HEURISTIC_PATH_H
 
-#include "NODE.h"
+#include "Node.h"
 #include <stack>
 #include <fstream>
 #include <string>
