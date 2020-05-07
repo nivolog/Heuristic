@@ -6,15 +6,16 @@
 #define HEURISTIC_CLOSED_H
 
 #include <unordered_map>
-#include <iostream>
 #include "Node.h"
+#include <iostream>
+
 
 class CLOSED {
 private:
-    std::unordered_map <int, NODE> closed;
+    std::unordered_map <int, class NODE> CLOSED;
 public:
     void insertNode(NODE &node);
-    std::unordered_map <int, NODE>::iterator findNode(int id);
+    std::unordered_map <int, class NODE>::iterator findNode(int id);
     void output();
 };
 
